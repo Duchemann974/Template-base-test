@@ -4,6 +4,10 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+
+
+
+
 (function($) {
 
 	skel.breakpoints({
@@ -62,6 +66,9 @@
 					}
 
 				// Video check.
+
+				
+
 					var video = $banner.data('video');
 
 					if (video)
@@ -72,9 +79,10 @@
 
 							// Append video if supported.
 								if (!skel.vars.mobile
-								/*&&	!skel.breakpoint('large').active*/
+								&&	!skel.breakpoint('large').active
 								&&	skel.vars.IEVersion > 9)
-									$banner.append('<video autoplay loop><source src="' + video + '.mp4" type="video/mp4" /><source src="' + video + '.webm" type="video/webm" /></video>');
+									$banner.append('<video autoplay loop muted><source src="' + video + '.mp4" type="video/mp4" /><source src="' + video + '.webm" type="video/webm" /></video>');
+
 
 						});
 
