@@ -320,6 +320,7 @@
 			margin: 0 1em 2em 1em;
 			width: 30%;
 			border: solid;
+
 		}
 
 			@media screen and (max-width: 1280px) {
@@ -548,6 +549,7 @@
 	}
 	.box:hover{
 		opacity: 0.7;
+		box-shadow: 0px 0px 35px 6px rgba(255,255,255,0.35);
 	}
 
 		.box > :last-child,
