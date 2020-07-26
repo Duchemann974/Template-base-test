@@ -8,6 +8,12 @@
 
 
 
+
+
+
+
+
+
 (function($) {
 
 	skel.breakpoints({
@@ -19,6 +25,9 @@
 	});
 
 	$(function() {
+
+		
+
 
 		var $window = $(window),
 			$body = $('body');
@@ -106,11 +115,12 @@
 						onPopupOpen: function() { $body.addClass('is-covered'); },
 						baseZIndex: 10001,
 						useBodyOverflow: false,
-						overlayColor: '#222226',
+						overlayColor: '#636e72',
 						overlayOpacity: 0.75,
+						popupBackgroundColor:'black',
 						popupLoaderText: '',
 						fadeSpeed: 500,
-						usePopupDefaultStyling: false,
+						usePopupDefaultStyling: true,
 						windowMargin: (skel.breakpoint('small').active ? 5 : 50)
 					});
 
@@ -124,3 +134,5 @@
 	});
 
 })(jQuery);
+
+

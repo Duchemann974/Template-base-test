@@ -585,6 +585,12 @@
 			padding: 0;
 		}
 
+
+ 	.box1{
+ 		transform: translate(300px);
+ 		z-index: 4;
+ 	}
+
 /* Icon */
 
 	.icon {
