@@ -3,9 +3,26 @@
 
 
 
-	var transition = document.querySelectorAll('#test');
+
+
+function decal(){
+		  	
+var transition = document.querySelector("#boxa");
+		transition.classList.toggle("box1");
+		console.log('test ok');
+	}
+
+
+
+	this.addEventListener("focus",decal);
+
+	
+
+	
+	
    
-
+	
+	
 
 
 
@@ -14,8 +31,3 @@
 
 	
 	
-for(var i = 0;i == transition.length-1;i++){
-  transition[i].addEventListener("mouseenter", function() {
-         transition.classList.toggle("box1")
-  });
-};
