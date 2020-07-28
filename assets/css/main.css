@@ -550,7 +550,9 @@
 	}
 	.box:hover{
 		opacity: 0.7;
-		box-shadow: 0px 0px 35px 6px rgba(255,255,255,0.35);
+		/*box-shadow: 0px 0px 35px 6px rgba(255,255,255,0.35);*/
+		/*box-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 15px white, 0 0 25px white, 0 0 35px white, 0 0 50px white, 0 0 70px white;*/
+		box-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 5px #002AFF, 0 0 15px #002AFF, 0 0 25px #002AFF, 0 0 40px #002AFF, 0 0 60px #002AFF;
 	}
 
 		.box > :last-child,
@@ -735,8 +737,10 @@
 					}
 
 					ul.icons li a:hover {
-						background-color: #202024;
+						/*background-color: #202024;*/
 						color: #FFF;
+						box-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 5px #002AFF, 0 0 15px #002AFF, 0 0 25px #002AFF, 0 0 40px #002AFF, 0 0 60px #002AFF;
+
 					}
 
 				ul.icons li:last-child {
