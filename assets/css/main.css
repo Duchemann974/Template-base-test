@@ -1104,7 +1104,8 @@
 		-ms-box-sizing: content-box;
 		box-sizing: content-box;
 		background: #000;
-		box-shadow: 0 0.5em 3em 0 rgba(0, 0, 0, 0.25);
+		/*box-shadow: 0 0.5em 3em 0 rgba(0, 0, 0, 0.25);*/
+		box-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 0px #002AFF, 0 0 5px #002AFF, 0 0 15px #002AFF, 0 0 30px #002AFF, 0 0 50px #002AFF;
 		border-radius: 4px;
 		padding: 2em;
 		overflow: hidden;
